@@ -1,4 +1,4 @@
-name: smoke-mercadolivre
+name: smoke-mercadolibre
 on:
   workflow_dispatch: {}  # executa manualmente
 
