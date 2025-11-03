@@ -1,7 +1,7 @@
 # smoke.py — valida acesso à API do Mercado Livre fora do Colab
 import requests
 
-URL = "https://api.mercadolivre.com/sites/MLB/search"
+URL = "https://api.mercadolibre.com/sites/MLB/search"
 params = {"q": "cortina", "limit": 1, "offset": 0}
 headers = {
     "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
